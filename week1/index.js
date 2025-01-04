@@ -20,10 +20,10 @@ console.log(alexAge, alexMembershipID, isRunningOnTreadmill);
 // 情境：Alex 這個月的運動預算有 3000 元
 // 請修改以下中文變數名稱，讓他符合變數語意
 
-const 變數一 = 300;
-const 變數二 = 500;
-const 變數三 = 1500;
-const 變數四 = 3000;
+const yogaGroupCourse = 300;
+const workoutGroupCourse = 500;
+const workoutOneOnOneCourse = 1500;
+const alexMonthlySportsBudget = 3000;
 
 // ### 題目三：變數計算
 // 呈上題，Alex 想要規劃好自己的運動課程，需符合以下三個條件，請將花費總數計算在 AlexBudget 上，一起幫幫他吧！
