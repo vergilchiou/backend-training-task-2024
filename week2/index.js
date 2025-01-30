@@ -49,7 +49,7 @@ let BobPrice = 1800; /* Bob 消費金額 */
 let BobIsVip = false; /* Bob 是否為 VIP */
 
 // 練習：（可自行將下方程式碼的註解刪除，完成答題）
-if (BobPrice > 1599 || BobIsVip == true) {
+if (BobPrice > 1599 || BobIsVip) {
   giftNum -= 1; // 符合資格送出贈品，故贈品數量減 1
   console.log("客戶您好，您有符合贈品資格");
 } else {
@@ -90,7 +90,7 @@ console.log(`小明總共需支付 $${coachBonus} 獎金`);
 
 let playerA = '剪刀';
 let playerB = '剪刀';
-if (playerA === '剪刀' && playerB === '剪刀') {
+if (playerA === playerB) {
   console.log('平手');
 }
 // 練習：使用 if, else if, else 判斷輸贏
@@ -294,7 +294,7 @@ console.log(validDays);
 // 練習：判斷是否符合 533 原則
 let isCompliant = false; // 條件：運動次數至少 5 次 || 運動時間累績達標 >= 150;
 
-if (totalDuration >= 150 && validDays >= 5) {
+if (validDays >= 5 || totalDuration >= 150) {
   isCompliant = true;
 };
 console.log(isCompliant);
