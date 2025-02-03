@@ -85,9 +85,7 @@ calculateTotalPrice(purchaseRecords);
 function filterNoPurchaseMember(data) {
   let purchaseMembers = [];
 
-  for (let i = 0; i < purchaseRecords.length; i++) {
-    purchaseMembers.push(purchaseRecords[i][0]);
-  };
+  purchaseRecords.forEach(item => purchaseMembers.push(item[0]))
 
   console.log(purchaseMembers);
 
